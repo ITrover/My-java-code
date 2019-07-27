@@ -8,8 +8,8 @@ public class CarFactory {
             case 4:car=new Truck(4,"低栏车",30, (float) 1.5);return car;
             case 5:car=new Truck(5,"高栏车",47,2.5f);return car;
             case 6:car=new Truck(6,"厢式车",80,4.5f);return car;
-            case 7:car=new PickupTrucks(7,"日式皮卡车",60,5,1);return car;
-            case 8:car=new PickupTrucks(8,"美式皮卡车",60,2,3);return car;
+            case 7:car=new PickupTrucks(7,"日式皮卡车",60,1,5);return car;
+            case 8:car=new PickupTrucks(8,"美式皮卡车",60,3,2);return car;
             default:{
                 System.out.println("请输入正确id");return null;
             }

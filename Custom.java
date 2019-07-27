@@ -13,7 +13,7 @@ public class Custom{
             new Truck(4,"低栏车",30, (float) 1.5),
             new Truck(5,"高栏车",47, (float) 2.5),
             new Truck(6,"厢式车",80, (float) 4.5),
-            new PickupTrucks(7,"日式皮卡车",60,5,1),
-            new PickupTrucks(8,"美式皮卡车",60,2,3)
+            new PickupTrucks(7,"日式皮卡车",60,1,5),
+            new PickupTrucks(8,"美式皮卡车",60,3,2)
     };
 }
